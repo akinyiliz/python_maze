@@ -58,3 +58,46 @@
 	width: 30rem;
 	height: 22rem;
 }
+
+@media screen and (min-width: 320px) and (max-width: 481px) {
+	.home-sides {
+		flex-direction: column;
+	}
+	.home-left {
+		margin-top: 0;
+	}
+	.home-right {
+		margin-top: 0;
+	}
+	.home-right img {
+		width: 18rem;
+		height: 13rem;
+		padding-left: 3rem;
+	}
+	.home-left-text {
+		padding-top: 1rem;
+	}
+	.home-left-text > :nth-child(1) {
+		font-size: 1.8rem;
+	}
+	.home-left-text > :nth-child(2) {
+		font-size: 0.9rem;
+	}
+	.btn {
+		width: 10rem;
+		height: 4rem;
+	}
+	.btn a {
+		font-size: 1rem;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 968px) {
+	.home-left {
+		padding-left: 3%;
+	}
+	.home-right img {
+		width: 20rem;
+		height: 22rem;
+	}
+}
