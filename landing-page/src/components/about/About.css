@@ -1,6 +1,7 @@
 .about {
 	height: 35rem;
-	background-color: white;
+	background-color: #3261a8;
+	box-shadow: 10px 10px 10px 10px;
 }
 
 .about-text {
@@ -53,5 +54,14 @@
 }
 
 .about-btn {
-	margin: 1rem 0 0 10rem;
+	width: 15rem;
+	height: 5rem;
+	margin: 1rem 0 0 3rem;
+	background: #80b3ff;
+	color: black;
+}
+
+.about-btn a {
+	color: black;
+	font-size: 2rem;
 }
