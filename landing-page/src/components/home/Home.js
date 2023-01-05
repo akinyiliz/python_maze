@@ -13,8 +13,8 @@ function Home() {
 					<div className="home-left-text">
 						<span>Python_Maze Game</span>
 						<span>
-							Lorem kfnf jjjjf nikfjdn jidshfid hjfel khjfidh hj nfi jj jhfu
-							jhijij kfh nfgj jhdiej ojm jikdv iihfdn jhdnkfmj gjgj hgygu jhuj
+							This is a 3D-maze game written in Python using a Digital
+							Differential Analyzer algorithm for raycasting.
 						</span>
 					</div>
 					<button className="btn">
