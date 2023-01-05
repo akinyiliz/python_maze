@@ -105,11 +105,11 @@ def maze_game(*, level_json_path: str = "maze_levels.json",
         max(cfg.viewport_width, 500), max(cfg.viewport_height, 500)
     ))
     if not is_multi:
-        pygame.display.set_caption("PyMaze - Level 1")
+        pygame.display.set_caption("Python_Maze - Level 1")
     elif is_coop:
-        pygame.display.set_caption(f"PyMaze Co-op - Level {current_level + 1}")
+        pygame.display.set_caption(f"Python_Maze Co-op - Level {current_level + 1}")
     else:
-        pygame.display.set_caption("PyMaze Deathmatch")
+        pygame.display.set_caption("Python_Maze Deathmatch")
     pygame.display.set_icon(
         pygame.image.load(os.path.join("window_icons", "main.png")).convert()
     )
@@ -336,7 +336,7 @@ def maze_game(*, level_json_path: str = "maze_levels.json",
                             else:
                                 continue
                             pygame.display.set_caption(
-                                f"Maze - Level {current_level + 1}"
+                                f"Python_Maze - Level {current_level + 1}"
                             )
                     elif (event.key == pygame.K_q
                             and player_walls[current_level] is None
