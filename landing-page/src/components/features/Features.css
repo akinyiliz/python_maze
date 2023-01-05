@@ -1,0 +1,60 @@
+.features {
+	height: 63rem;
+	background-color: white;
+}
+.features h1 {
+	padding: 0 3rem;
+	font-size: 3rem;
+	color: #80b3ff;
+}
+
+.features-content {
+	display: flex;
+	gap: 1rem;
+	padding-top: 2rem;
+}
+
+.feature-1,
+.feature-2,
+.feature-3,
+.feature-4,
+.feature-5,
+.feature-6 {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.feature-1,
+.feature-4 {
+	padding-left: 3rem;
+}
+
+.feature-image img {
+	width: 20rem;
+	height: 15rem;
+}
+
+.feature-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.feature-text > :nth-child(1) {
+	font-size: 1.5rem;
+	font-weight: bold;
+	padding: 0.5rem 0;
+}
+
+.feature-text > :nth-child(2) {
+	font-size: 16px;
+
+	padding: 0 1rem;
+}
+
+.feature-3,
+.feature-6 {
+	padding-right: 3rem;
+}
