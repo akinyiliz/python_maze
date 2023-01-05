@@ -13,14 +13,14 @@ function About() {
 				<span>About</span>
 				<span>
 					A maze is a path or collection of paths, typically from an entrance to
-					a goal. The word is used to refer both to branching tour puzzles
-					through which the solver must find a route, and to simpler
-					non-branching ("unicursal") patterns that lead unambiguously through a
-					convoluted layout to a goal. The term "labyrinth" is generally
-					synonymous with "maze", but can also connote specifically a unicursal
-					pattern.[1] The pathways and walls in a maze are typically fixed, but
-					puzzles in which the walls and paths can change during the game are
-					also categorised as mazes or tour puzzles.
+					a goal.The project was inspired by one of our team members love for
+					gaming that led to the creation of python_maze. The project has taken
+					us a month and more to get to where it is now. The game is open to
+					modification and changes to get a better experience which can be done
+					by opening a pull request on the github repository. This is our
+					Portfolio Project for the completion of Holberton School(ALX Software
+					Engineering Programme) and marks the beginning of Software Engineering
+					journey.
 				</span>
 			</div>
 			<div className="members">
@@ -32,24 +32,27 @@ function About() {
 							<ul className="social-links">
 								<li>
 									<a
-										href="df"
+										href="https://www.linkedin.com/in/ricky-kimumu-350147199"
 										target="_blank"
+										rel="noreferrer"
 									>
 										<FaLinkedin size={25} />
 									</a>
 								</li>
 								<li>
 									<a
-										href="df"
+										href="https://github.com/Rickyflame"
 										target="_blank"
+										rel="noreferrer"
 									>
 										<FaGithub size={25} />
 									</a>
 								</li>
 								<li>
 									<a
-										href="df"
+										href="https://twitter.com/R_Kimumu"
 										target="_blank"
+										rel="noreferrer"
 									>
 										<FaTwitter size={25} />
 									</a>
@@ -99,24 +102,27 @@ function About() {
 							<ul className="social-links">
 								<li>
 									<a
-										href="df"
+										href="https://www.linkedin.com/in/giggs-bradly-8035a4247/"
 										target="_blank"
+										rel="noreferrer"
 									>
 										<FaLinkedin size={25} />
 									</a>
 								</li>
 								<li>
 									<a
-										href="df"
+										href="https://github.com/AmadaloYoung"
 										target="_blank"
+										rel="noreferrer"
 									>
 										<FaGithub size={25} />
 									</a>
 								</li>
 								<li>
 									<a
-										href="df"
+										href="https://twitter.com/Amadaloyoung"
 										target="_blank"
+										rel="noreferrer"
 									>
 										<FaTwitter size={25} />
 									</a>
