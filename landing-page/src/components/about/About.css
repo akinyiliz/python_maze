@@ -1,0 +1,57 @@
+.about {
+	height: 35rem;
+	background-color: white;
+}
+
+.about-text {
+	display: flex;
+	flex-direction: column;
+	padding: 2rem 3rem;
+}
+
+.about-text > :nth-child(1) {
+	font-size: 3rem;
+	font-weight: bold;
+	color: #80b3ff;
+}
+
+.about-text > :nth-child(2) {
+	font-size: 1.5rem;
+	padding-top: 10px;
+}
+
+.members-content {
+	display: flex;
+	gap: 1rem;
+	padding: 0 10rem;
+}
+
+.member {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.member > :nth-child(1) {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.member > :nth-child(2) {
+	font-size: 1.2rem;
+	padding-top: 5px;
+}
+
+.social-icons ul {
+	display: flex;
+	gap: 1rem;
+	list-style: none;
+}
+
+.social-links li a {
+	color: black;
+}
+
+.about-btn {
+	margin: 1rem 0 0 10rem;
+}
