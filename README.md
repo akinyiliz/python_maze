@@ -4,7 +4,7 @@ INSTALLATION.
 1. TO install the game, one can download the ZIP file by pressing the green button and extracting all the files once the download is completed.
 2. Another way is by cloning the repository and pasting in the terminal if you have git installed in your computer. 
 3. Install PyGame with command pip3 install pygame on linux or pip install pygame on Windows.
-4. Run python3 __main__.py to start the game.
+4. Run python3 \_\_main\_\_.py to start the game.
 
 CONTROLS.
 The following keys help with the games controls:
