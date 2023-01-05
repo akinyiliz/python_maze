@@ -25,12 +25,9 @@ function Features() {
 					<div className="feature-text">
 						<span>Monster</span>
 						<span>
-							There are two main mechanisms used to generate mazes. In "carving
-							passages", one marks out the network of available routes. In
-							building a maze by "adding walls", one lays out a set of
-							obstructions within an open area. Most mazes drawn on paper are
-							done by drawing the walls, with the spaces in between the markings
-							composing the passages.
+							This is an character in the game that appears after some time and
+							tries to find you in the maze. We gave it a voice to sound
+							realistic and phrases it says as they try to find you.
 						</span>
 					</div>
 				</div>
@@ -63,12 +60,10 @@ function Features() {
 					<div className="feature-text">
 						<span>Key</span>
 						<span>
-							There are two main mechanisms used to generate mazes. In "carving
-							passages", one marks out the network of available routes. In
-							building a maze by "adding walls", one lays out a set of
-							obstructions within an open area. Most mazes drawn on paper are
-							done by drawing the walls, with the spaces in between the markings
-							composing the passages.
+							These are golden keys scattered across each level. The player is
+							supposed to collect all of the keys in the shorted period of time
+							with the least amount of movement to be able to complete the
+							level. Each level has a specified number of keys.
 						</span>
 					</div>
 				</div>
@@ -102,12 +97,10 @@ function Features() {
 					<div className="feature-text">
 						<span>Key Sensor</span>
 						<span>
-							There are two main mechanisms used to generate mazes. In "carving
-							passages", one marks out the network of available routes. In
-							building a maze by "adding walls", one lays out a set of
-							obstructions within an open area. Most mazes drawn on paper are
-							done by drawing the walls, with the spaces in between the markings
-							composing the passages.
+							This is a device that can be picked up at certain locations in
+							some levels of the game. It shows the location of all keys of the
+							current level for a brief moment in the map that a player need to
+							collect or has not collected yet.
 						</span>
 					</div>
 				</div>
@@ -121,12 +114,8 @@ function Features() {
 					<div className="feature-text">
 						<span>Monster Spawn</span>
 						<span>
-							There are two main mechanisms used to generate mazes. In "carving
-							passages", one marks out the network of available routes. In
-							building a maze by "adding walls", one lays out a set of
-							obstructions within an open area. Most mazes drawn on paper are
-							done by drawing the walls, with the spaces in between the markings
-							composing the passages.
+							This is a fixed location in each map that the monster appears from
+							and chases you.
 						</span>
 					</div>
 				</div>
