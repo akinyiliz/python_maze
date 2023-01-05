@@ -14,7 +14,7 @@ import pygame
 from config_editor import ConfigEditorApp
 from level_designer import LevelDesignerApp
 from maze_game import maze_game
-from screen_drawing import BLUE, GREEN, WHITE
+from screen_drawing import BLUE, GREEN, WHITE, PURPLE, BLACK, GREY
 from server import maze_server
 
 
@@ -35,19 +35,19 @@ def main() -> None:
 
     # Minimum window resolution is 500×500
     screen = pygame.display.set_mode((500, 500))
-    pygame.display.set_caption("PyMaze")
+    pygame.display.set_caption("Python_Maze")
     pygame.display.set_icon(
         pygame.image.load(os.path.join("window_icons", "main.png")).convert()
     )
 
-    normal_font = pygame.font.SysFont('Tahoma', 14, True)
-    button_font = pygame.font.SysFont('Tahoma', 28, True)
-    title_font = pygame.font.SysFont('Tahoma', 36, True)
+    normal_font = pygame.font.SysFont('Sans Serif', 14, True)
+    button_font = pygame.font.SysFont('Sans Serif', 28, True)
+    title_font = pygame.font.SysFont('Sans Serif', 36, True)
 
-    title_text = title_font.render("PyMaze", True, BLUE)
+    title_text = title_font.render("Python_Maze", True, GREY)
     copyright_text = normal_font.render(
-        "Copyright © 2022  Ptolemy Hill, Finlay Griffiths, and Tomas Reynolds",
-        True, BLUE
+        "Developed by: Ricky Kimumu  Elizabeth Odhiambo  Giggs Amadalo",
+        True, GREEN
     )
     play_text = button_font.render("Play", True, WHITE)
     config_text = button_font.render("Settings", True, WHITE)
@@ -168,7 +168,7 @@ def main() -> None:
                         )
                         maze_server(**server_kwargs)
                         sys.exit(0)
-        screen.fill(GREEN)
+        screen.fill(PURPLE)
         screen.blit(title_text, (250 - title_text.get_width() // 2, 5))
         screen.blit(copyright_text,
                     (250 - copyright_text.get_width() // 2, 475))

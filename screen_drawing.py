@@ -43,8 +43,8 @@ KEY_SENSOR = 6
 GUN = 7
 
 pygame.font.init()
-FONT = pygame.font.SysFont('Tahoma', 24, True)
-TITLE_FONT = pygame.font.SysFont('Tahoma', 30, True)
+FONT = pygame.font.SysFont('Sans Serif', 24, True)
+TITLE_FONT = pygame.font.SysFont('Sans Serif', 30, True)
 
 pygame.init()
 
@@ -392,7 +392,7 @@ def draw_solid_background(screen: pygame.Surface, cfg: Config) -> None:
     filled_screen_width = display_column_width * cfg.display_columns
     # Draw solid sky
     pygame.draw.rect(
-        screen, BLUE, (0, 0, filled_screen_width, cfg.viewport_height // 2)
+        screen, PURPLE, (0, 0, filled_screen_width, cfg.viewport_height // 2)
     )
     # Draw solid floor
     pygame.draw.rect(
