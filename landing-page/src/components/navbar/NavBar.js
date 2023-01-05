@@ -1,21 +1,55 @@
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 import './NavBar.css';
 
 function NavBar() {
 	return (
 		<header className="header">
-			<div className="logo">Python Maze</div>
+			<div className="logo">
+				<Link
+					to="home"
+					spy={true}
+					smooth={true}
+					offset={-100}
+					duration={500}
+				>
+					Python_Maze
+				</Link>
+			</div>
 			<nav>
 				<ul>
 					<li>
-						<Link to="/">Home</Link>
+						<Link
+							to="home"
+							spy={true}
+							smooth={true}
+							offset={-100}
+							duration={500}
+						>
+							Home
+						</Link>
 					</li>
 					<li>
-						<Link to="/features">Features</Link>
+						<Link
+							to="features"
+							spy={true}
+							smooth={true}
+							offset={-100}
+							duration={500}
+						>
+							Features
+						</Link>
 					</li>
 					<li>
-						<Link to="/about">About</Link>
+						<Link
+							to="about"
+							spy={true}
+							smooth={true}
+							offset={-100}
+							duration={500}
+						>
+							About
+						</Link>
 					</li>
 				</ul>
 			</nav>
