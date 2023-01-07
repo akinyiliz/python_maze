@@ -1,6 +1,4 @@
 """
-PyMaze - Copyright © 2022  Ptolemy Hill, Finlay Griffiths, and Tomas Reynolds
-
 The script that launches the game, config editor, and level designer.
 """
 import os
@@ -14,7 +12,7 @@ import pygame
 from config_editor import ConfigEditorApp
 from level_designer import LevelDesignerApp
 from maze_game import maze_game
-from screen_drawing import BLUE, GREEN, WHITE, PURPLE, BLACK, GREY
+from screen_drawing import BLUE, GREEN, WHITE, PURPLE, GREY
 from server import maze_server
 
 
@@ -40,9 +38,9 @@ def main() -> None:
         pygame.image.load(os.path.join("window_icons", "main.png")).convert()
     )
 
-    normal_font = pygame.font.SysFont('Sans Serif', 14, True)
-    button_font = pygame.font.SysFont('Sans Serif', 28, True)
-    title_font = pygame.font.SysFont('Sans Serif', 36, True)
+    normal_font = pygame.font.SysFont('Tahoma', 14, True)
+    button_font = pygame.font.SysFont('Tahoma', 28, True)
+    title_font = pygame.font.SysFont('Tahoma', 36, True)
 
     title_text = title_font.render("Python_Maze", True, GREY)
     copyright_text = normal_font.render(
