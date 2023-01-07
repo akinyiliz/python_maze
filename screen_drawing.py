@@ -43,8 +43,8 @@ KEY_SENSOR = 6
 GUN = 7
 
 pygame.font.init()
-FONT = pygame.font.SysFont('Sans Serif', 24, True)
-TITLE_FONT = pygame.font.SysFont('Sans Serif', 30, True)
+FONT = pygame.font.SysFont('Tahoma', 24, True)
+TITLE_FONT = pygame.font.SysFont('Tahoma', 30, True)
 
 pygame.init()
 
