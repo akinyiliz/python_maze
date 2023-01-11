@@ -4,29 +4,29 @@ This is a 3D-maze game written in Python using a Digital Differential Analyzer a
 
 ## INSTALLATION
 
-- TO install the game, one can download the ZIP file by pressing the green button and extracting all the files once the download is completed.
+- To install the game, one can download the ZIP file by pressing the green button and extracting all the files once the download is completed.
 
 - Another way is by cloning the repository and pasting in the terminal if you have git installed in your computer.
 - Install PyGame with command `pip3 install pygame` on linux or `pip install pygame` on Windows.
-- Run `python3 \_\_main\_\_.py` to start the game.
+- Run `python3 __main__.py` to start the game.
 
 ## CONTROLS
 
 The following keys help with the games controls:
-**WASD** or **up** and **down** arrow keys - move front and back respectively.
-**Left** and **right** arrow keys or mouse - move left, right or around
-**Left** mouse click or **ESC** - to toggle mouse control( can be used to fire gun or free mouse from game)
-**[** and **]** - change to previous ([) or next (]) level
-**F** - place or pick flag to remember direction
-**Q** - place a temporary barricade
-**T** - To shoot
-**R** - pause game
-**Y** - reset level
-**Shift** - run while held
-**CTRL** - crawl while held
-**Space bar** - toggle map
-**C** - Toggle moster compass
-**E** - toggle statistics (time, movement, key count)
+
+- **WASD** or **up** and **down** arrow keys - move front and back respectively.- **Left** and **right** arrow keys or mouse - move left, right or around
+- **Left** mouse click or **ESC** - to toggle mouse control( can be used to fire gun or free mouse from game)
+- **[** and **]** - change to previous ([) or next (]) level
+- **F** - place or pick flag to remember direction
+- **Q** - place a temporary barricade
+- **T** - To shoot
+- **R** - pause game
+- **Y** - reset level
+- **Shift** - run while held
+- **CTRL** - crawl while held
+- **Space bar** - toggle map
+- **C** - Toggle moster compass
+- **E** - toggle statistics (time, movement, key count)
 
 ## INSTRUCTIONS
 
